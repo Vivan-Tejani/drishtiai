@@ -32,7 +32,7 @@ Each event is exported as its own clip, pre/post buffered so the invigilator see
 
 ## Motion Heatmaps
 
-Percentile-clipped so no single outlier frame dominates the map - one shows *how strong* motion was, the other *how often* a spot was active across the whole session.
+Percentile-clipped so no single outlier frame dominates the map, one shows *how strong* motion was, the other *how often* a spot was active across the whole session.
 
 | Intensity | Presence |
 |---|---|
@@ -42,7 +42,7 @@ Percentile-clipped so no single outlier frame dominates the map - one shows *how
 
 ## Activity Timeline
 
-Total room motion over time, with flagged event windows shaded — gives an invigilator the whole session at a glance instead of scrubbing through raw footage.
+Total room motion over time, with flagged event windows shaded which gives an invigilator the whole session at a glance instead of scrubbing through raw footage.
 
 ![timeline](results/activity_timeline.png)
 
@@ -50,7 +50,7 @@ Total room motion over time, with flagged event windows shaded — gives an invi
 
 ## Structured Event Log
 
-Every flagged event is written out as CSV/JSON — searchable, timestamped, zoned, and reason-tagged, ready to hand to an investigator instead of raw video:
+Every flagged event is written out as CSV/JSON that is searchable, timestamped, zoned, and reason-tagged, ready to hand to an investigator instead of raw video:
 
 | Zone | Window | Duration | Peak z-score | Flag Reason |
 |---|---|---|---|---|
@@ -65,7 +65,7 @@ Full file: [`results/roi_events.csv`](results/roi_events.csv)
 
 ---
 
-## Pipeline at a Glance
+## Pipeline Overview
 
 ```
 Video → Frame Sampling → Farneback Optical Flow → Per-Person Zoning
@@ -76,17 +76,17 @@ Video → Frame Sampling → Farneback Optical Flow → Per-Person Zoning
       → Heatmap + Timeline + Structured CSV/JSON Log
 ```
 
-Runs entirely offline on CPU (OpenCV + optional YOLOv9 for object detection), with graceful fallback to fixed-grid zoning if person detection is unavailable — no GPU required.
+Runs entirely offline on CPU (OpenCV + optional YOLOv9 for object detection), with fallback to fixed-grid zoning if person detection is unavailable - no GPU is required.
 
 ---
 
-## Output Folder Reference
+## Output Folder Structure
 
 ```
 output_ps2/
 ├── annotated_roi_run.mp4
-├── roi_frames/              # annotated frames, ~1/sec + one peak frame per event
-├── event_clips/              # one .mp4 per flagged event, pre/post buffered
+├── roi_frames/             
+├── event_clips/             
 ├── heatmaps/
 │   ├── motion_heatmap_intensity.jpg
 │   └── motion_heatmap_presence.jpg
