@@ -1,0 +1,86 @@
+[
+  {
+    "zone_id": 0,
+    "zone_row": 0,
+    "zone_col": 0,
+    "window_start": "00:00:04",
+    "window_end": "00:00:10",
+    "duration_sec": 6.0,
+    "peak_motion_z": 2.77,
+    "peak_frame_number": 50,
+    "blob_bbox": [
+      556,
+      374,
+      653,
+      538
+    ],
+    "detected_object": "",
+    "object_confidence": "",
+    "reason": "sustained motion for tracked person 0",
+    "clip_path": "/kaggle/working/output_ps2/event_clips/event_0001_z0.mp4",
+    "roi_frame_path": "/kaggle/working/output_ps2/roi_frames/event_0001_z0_peak.jpg"
+  },
+  {
+    "zone_id": 10,
+    "zone_row": 10,
+    "zone_col": 0,
+    "window_start": "00:00:11",
+    "window_end": "00:00:17",
+    "duration_sec": 6.0,
+    "peak_motion_z": 3.288,
+    "peak_frame_number": 88,
+    "blob_bbox": [
+      545,
+      122,
+      588,
+      220
+    ],
+    "detected_object": "",
+    "object_confidence": "",
+    "reason": "sustained motion for tracked person 10",
+    "clip_path": "/kaggle/working/output_ps2/event_clips/event_0002_z10.mp4",
+    "roi_frame_path": "/kaggle/working/output_ps2/roi_frames/event_0002_z10_peak.jpg"
+  },
+  {
+    "zone_id": 6,
+    "zone_row": 6,
+    "zone_col": 0,
+    "window_start": "00:00:16",
+    "window_end": "00:00:23",
+    "duration_sec": 7.0,
+    "peak_motion_z": 9.057,
+    "peak_frame_number": 110,
+    "blob_bbox": [
+      579,
+      383,
+      692,
+      525
+    ],
+    "detected_object": "",
+    "object_confidence": "",
+    "reason": "sustained motion for tracked person 6",
+    "clip_path": "/kaggle/working/output_ps2/event_clips/event_0003_z6.mp4",
+    "roi_frame_path": "/kaggle/working/output_ps2/roi_frames/event_0003_z6_peak.jpg"
+  },
+  {
+    "zone_id": 7,
+    "zone_row": 7,
+    "zone_col": 0,
+    "window_start": "00:01:26",
+    "window_end": "00:01:33",
+    "duration_sec": 7.8,
+    "peak_motion_z": 3.405,
+    "peak_frame_number": 460,
+    "blob_bbox": [
+      425,
+      104,
+      503,
+      184
+    ],
+    "detected_object": "",
+    "object_confidence": "",
+    "reason": "sustained motion for tracked person 7",
+    "clip_path": "/kaggle/working/output_ps2/event_clips/event_0004_z7.mp4",
+    "roi_frame_path": "/kaggle/working/output_ps2/roi_frames/event_0004_z7_peak.jpg"
+  }
+]

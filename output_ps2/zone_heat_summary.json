@@ -1,0 +1,67 @@
+[
+  {
+    "zone_id": 0,
+    "intensity_sum": 7264876.5,
+    "presence_pct_of_video": 5.19
+  },
+  {
+    "zone_id": 1,
+    "intensity_sum": 4337764.5,
+    "presence_pct_of_video": 4.25
+  },
+  {
+    "zone_id": 2,
+    "intensity_sum": 9524671.1,
+    "presence_pct_of_video": 9.15
+  },
+  {
+    "zone_id": 3,
+    "intensity_sum": 4245498.5,
+    "presence_pct_of_video": 7.38
+  },
+  {
+    "zone_id": 4,
+    "intensity_sum": 3029549.4,
+    "presence_pct_of_video": 6.41
+  },
+  {
+    "zone_id": 5,
+    "intensity_sum": 4261820.8,
+    "presence_pct_of_video": 4.81
+  },
+  {
+    "zone_id": 6,
+    "intensity_sum": 7520557.3,
+    "presence_pct_of_video": 4.22
+  },
+  {
+    "zone_id": 7,
+    "intensity_sum": 4086147.3,
+    "presence_pct_of_video": 5.87
+  },
+  {
+    "zone_id": 8,
+    "intensity_sum": 5576127.6,
+    "presence_pct_of_video": 7.87
+  },
+  {
+    "zone_id": 9,
+    "intensity_sum": 6306962.0,
+    "presence_pct_of_video": 8.81
+  },
+  {
+    "zone_id": 10,
+    "intensity_sum": 5342006.8,
+    "presence_pct_of_video": 6.63
+  },
+  {
+    "zone_id": 11,
+    "intensity_sum": 3307768.3,
+    "presence_pct_of_video": 4.71
+  },
+  {
+    "zone_id": 12,
+    "intensity_sum": 3763777.0,
+    "presence_pct_of_video": 6.71
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "intruder_person_id": null,
+    "zone_owner_person_id": 1,
+    "start_frame": 35,
+    "end_frame": 35,
+    "sustained_frames": 1,
+    "peak_blob_bbox": [
+      487,
+      238,
+      538,
+      282
+    ]
+  },
+  {
+    "intruder_person_id": null,
+    "zone_owner_person_id": 1,
+    "start_frame": 87,
+    "end_frame": 87,
+    "sustained_frames": 1,
+    "peak_blob_bbox": [
+      503,
+      209,
+      544,
+      270
+    ]
+  },
+  {
+    "intruder_person_id": null,
+    "zone_owner_person_id": 8,
+    "start_frame": 94,
+    "end_frame": 94,
+    "sustained_frames": 1,
+    "peak_blob_bbox": [
+      275,
+      414,
+      309,
+      472
+    ]
+  }
+]

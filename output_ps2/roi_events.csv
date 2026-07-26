@@ -1,0 +1,5 @@
+zone_id,zone_row,zone_col,window_start,window_end,duration_sec,peak_motion_z,peak_frame_number,blob_bbox,detected_object,object_confidence,reason,clip_path,roi_frame_path
+0,0,0,00:00:04,00:00:10,6.0,2.77,50,"(556, 374, 653, 538)",,,sustained motion for tracked person 0,/kaggle/working/output_ps2/event_clips/event_0001_z0.mp4,/kaggle/working/output_ps2/roi_frames/event_0001_z0_peak.jpg
+10,10,0,00:00:11,00:00:17,6.0,3.288,88,"(545, 122, 588, 220)",,,sustained motion for tracked person 10,/kaggle/working/output_ps2/event_clips/event_0002_z10.mp4,/kaggle/working/output_ps2/roi_frames/event_0002_z10_peak.jpg
+6,6,0,00:00:16,00:00:23,7.0,9.057,110,"(579, 383, 692, 525)",,,sustained motion for tracked person 6,/kaggle/working/output_ps2/event_clips/event_0003_z6.mp4,/kaggle/working/output_ps2/roi_frames/event_0003_z6_peak.jpg
+7,7,0,00:01:26,00:01:33,7.8,3.405,460,"(425, 104, 503, 184)",,,sustained motion for tracked person 7,/kaggle/working/output_ps2/event_clips/event_0004_z7.mp4,/kaggle/working/output_ps2/roi_frames/event_0004_z7_peak.jpg
