@@ -1,7 +1,7 @@
-# DRISHTI-PS2 — Sentinel
+# DRISHTI-PS2 - Sentinel
 
 **Offline Video Segmentation & ROI Detection using Motion Estimation**
-Problem Statement 2 — Drishti AI Hackathon 2026
+Problem Statement 2 - Drishti AI Hackathon 2026
 Team DI2_04 — The Fellowship of the Ring
 
 The outputs below are real and are generated directly by the pipeline on a sample exam-hall CCTV camera recording.
