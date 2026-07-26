@@ -32,7 +32,7 @@ Each event is exported as its own clip, pre/post buffered so the invigilator see
 
 ## Motion Heatmaps
 
-Percentile-clipped so no single outlier frame dominates the map — one shows *how strong* motion was, the other *how often* a spot was active across the whole session.
+Percentile-clipped so no single outlier frame dominates the map - one shows *how strong* motion was, the other *how often* a spot was active across the whole session.
 
 | Intensity | Presence |
 |---|---|
