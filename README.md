@@ -1,20 +1,10 @@
-# DRISHTI-PS2 - Sentinel
+# DRISHTIAI PS2
 
 **Offline Video Segmentation & ROI Detection using Motion Estimation**
 Problem Statement 2 - Drishti AI Hackathon 2026
 Team DI2_04 — The Fellowship of the Ring
 
 The outputs below are real and are generated directly by the pipeline on a sample exam-hall CCTV camera recording.
-
----
-
-## Live Detection — Per-Person Zone Tracking
-
-Every student gets their own tracked zone (not a fixed grid) — this is the pipeline running mid-video in its normal state:
-
-![zone grid](results/roi_frames/sample_zone_grid_frame.jpg)
-
-Full annotated run: [`results/annotated_roi_run.mp4`](results/annotated_roi_run.mp4)
 
 ---
 
